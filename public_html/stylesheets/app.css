@@ -9042,22 +9042,29 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 2, ../scss/_custom.scss */
-body {
-  font-family: "effra", sans-serif;
+/* line 3, ../scss/_custom.scss */
+header {
   background-image: url("img/flowing.png");
+  width: 100%;
+  height: 50px;
+  background-position: 45% 70%;
 }
 
-/* line 10, ../scss/_custom.scss */
+/* line 11, ../scss/_custom.scss */
+body {
+  font-family: "effra", sans-serif;
+}
+
+/* line 19, ../scss/_custom.scss */
 a {
   color: inherit;
 }
-/* line 12, ../scss/_custom.scss */
+/* line 21, ../scss/_custom.scss */
 a:hover {
   color: inherit;
 }
 
-/* line 19, ../scss/_custom.scss */
+/* line 28, ../scss/_custom.scss */
 .menu {
   width: 10%;
   margin-top: 10%;
@@ -9066,14 +9073,14 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 27, ../scss/_custom.scss */
+  /* line 36, ../scss/_custom.scss */
   .full-menu {
     width: 5%;
     margin-top: 4%;
   }
 }
 @media screen and (max-width: 1024px) {
-  /* line 27, ../scss/_custom.scss */
+  /* line 36, ../scss/_custom.scss */
   .full-menu {
     width: 10%;
     margin-top: 0%;
@@ -9082,7 +9089,7 @@ a:hover {
   }
 }
 
-/* line 43, ../scss/_custom.scss */
+/* line 52, ../scss/_custom.scss */
 .popup-nav li {
   text-transform: uppercase;
   font-size: 3rem;
@@ -9090,52 +9097,52 @@ a:hover {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 480px) {
-  /* line 43, ../scss/_custom.scss */
+  /* line 52, ../scss/_custom.scss */
   .popup-nav li {
     font-size: 1.5rem;
   }
 }
-/* line 52, ../scss/_custom.scss */
+/* line 61, ../scss/_custom.scss */
 .popup-nav a {
   color: #a32282;
 }
 
-/* line 59, ../scss/_custom.scss */
+/* line 68, ../scss/_custom.scss */
 .reveal-modal > :first-child, dialog > :first-child {
   margin-top: 50px;
 }
 
-/* line 63, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 ul {
   list-style: none;
   margin-left: 0px;
 }
 
-/* line 70, ../scss/_custom.scss */
+/* line 79, ../scss/_custom.scss */
 section.main {
   background-repeat: repeat;
 }
 
-/* line 74, ../scss/_custom.scss */
+/* line 83, ../scss/_custom.scss */
 .container {
   background-color: white;
   width: 100%;
   padding-bottom: 50px;
 }
 @media screen and (max-width: 1024px) {
-  /* line 74, ../scss/_custom.scss */
+  /* line 83, ../scss/_custom.scss */
   .container {
     margin-top: 50px;
   }
 }
 
-/* line 85, ../scss/_custom.scss */
+/* line 94, ../scss/_custom.scss */
 .main-logo {
   width: 100%;
   margin-top: 50px;
 }
 
-/* line 90, ../scss/_custom.scss */
+/* line 99, ../scss/_custom.scss */
 h1 {
   margin-top: 30px;
   font-family: "Playfair Display", serif;
@@ -9145,43 +9152,43 @@ h1 {
   color: #52006e;
   width: 100%;
 }
-/* line 98, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 h1 span {
   font-weight: bold;
 }
 @media screen and (max-width: 1024px) {
-  /* line 90, ../scss/_custom.scss */
+  /* line 99, ../scss/_custom.scss */
   h1 {
     font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 90, ../scss/_custom.scss */
+  /* line 99, ../scss/_custom.scss */
   h1 {
     font-size: 2rem;
   }
 }
 
-/* line 112, ../scss/_custom.scss */
+/* line 121, ../scss/_custom.scss */
 .navigation {
   float: left;
   clear: both;
   width: 100%;
   margin-top: 50px;
 }
-/* line 117, ../scss/_custom.scss */
+/* line 126, ../scss/_custom.scss */
 .navigation ul li {
   float: left;
   margin-left: 6%;
 }
-/* line 120, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 .navigation ul li:hover {
   background-image: url("img/highlight.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 50%;
 }
-/* line 126, ../scss/_custom.scss */
+/* line 135, ../scss/_custom.scss */
 .navigation ul li a {
   font-family: "effra", sans-serif;
   font-size: 2.125rem;
@@ -9192,14 +9199,14 @@ h1 span {
   display: block;
 }
 @media screen and (max-width: 1024px) {
-  /* line 117, ../scss/_custom.scss */
+  /* line 126, ../scss/_custom.scss */
   .navigation ul li {
     font-size: 1.5rem;
     margin-left: 10%;
   }
 }
 
-/* line 147, ../scss/_custom.scss */
+/* line 156, ../scss/_custom.scss */
 .divider {
   width: 20%;
   margin-top: 30px;
@@ -9208,71 +9215,71 @@ h1 span {
   background-color: #D4BF15;
 }
 
-/* line 157, ../scss/_custom.scss */
+/* line 166, ../scss/_custom.scss */
 .second {
   margin-bottom: 100px;
 }
 
-/* line 161, ../scss/_custom.scss */
+/* line 170, ../scss/_custom.scss */
 .capabilities-mod {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-/* line 164, ../scss/_custom.scss */
+/* line 173, ../scss/_custom.scss */
 .capabilities-mod img {
   width: 100%;
 }
 @media screen and (max-width: 1024px) {
-  /* line 161, ../scss/_custom.scss */
+  /* line 170, ../scss/_custom.scss */
   .capabilities-mod {
     margin-top: 50px;
   }
 }
 
-/* line 174, ../scss/_custom.scss */
+/* line 183, ../scss/_custom.scss */
 .capabilities {
   width: 100%;
   margin-bottom: 25px;
 }
 @media screen and (max-width: 1024px) {
-  /* line 174, ../scss/_custom.scss */
+  /* line 183, ../scss/_custom.scss */
   .capabilities {
     padding: 45px 20px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 174, ../scss/_custom.scss */
+  /* line 183, ../scss/_custom.scss */
   .capabilities {
     padding: 35px 20px;
   }
 }
 
-/* line 189, ../scss/_custom.scss */
+/* line 198, ../scss/_custom.scss */
 .cape-decor {
   margin-top: -225px;
   width: 92%;
   position: absolute;
 }
-/* line 194, ../scss/_custom.scss */
+/* line 203, ../scss/_custom.scss */
 .cape-decor .divider {
   margin-top: -20px;
   margin-top: 15px;
   margin-left: 40%;
 }
 @media screen and (max-width: 1024px) {
-  /* line 189, ../scss/_custom.scss */
+  /* line 198, ../scss/_custom.scss */
   .cape-decor {
     margin-top: -70%;
   }
 }
 @media screen and (max-width: 800px) {
-  /* line 189, ../scss/_custom.scss */
+  /* line 198, ../scss/_custom.scss */
   .cape-decor {
     margin-top: -77%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 189, ../scss/_custom.scss */
+  /* line 198, ../scss/_custom.scss */
   .cape-decor {
     margin-top: -77%;
     width: 87%;
@@ -9280,7 +9287,7 @@ h1 span {
   }
 }
 
-/* line 212, ../scss/_custom.scss */
+/* line 221, ../scss/_custom.scss */
 .cape-hover {
   display: none;
   margin-top: -300px;
@@ -9290,33 +9297,33 @@ h1 span {
   margin-left: 5%;
   padding: 10px;
 }
-/* line 220, ../scss/_custom.scss */
+/* line 229, ../scss/_custom.scss */
 .cape-hover .button.large {
   font-size: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 @media screen and (max-width: 480px) {
-  /* line 220, ../scss/_custom.scss */
+  /* line 229, ../scss/_custom.scss */
   .cape-hover .button.large {
     font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 1024px) {
-  /* line 212, ../scss/_custom.scss */
+  /* line 221, ../scss/_custom.scss */
   .cape-hover {
     margin-top: -100%;
     padding: 10px 10px 10px 15px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 212, ../scss/_custom.scss */
+  /* line 221, ../scss/_custom.scss */
   .cape-hover {
     padding: 20px 15px 10px 20px;
   }
 }
 
-/* line 237, ../scss/_custom.scss */
+/* line 246, ../scss/_custom.scss */
 h3 {
   font-family: "Playfair Display", serif;
   color: #D4BF15;
@@ -9325,25 +9332,25 @@ h3 {
   overflow-x: scroll;
 }
 @media screen and (max-width: 1024px) {
-  /* line 237, ../scss/_custom.scss */
+  /* line 246, ../scss/_custom.scss */
   h3 {
     font-size: 1rem;
     max-height: 38%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 237, ../scss/_custom.scss */
+  /* line 246, ../scss/_custom.scss */
   h3 {
     font-size: 0.875rem;
   }
 }
 
-/* line 253, ../scss/_custom.scss */
+/* line 262, ../scss/_custom.scss */
 .mobile-cape {
   margin-bottom: 100px;
 }
 
-/* line 257, ../scss/_custom.scss */
+/* line 266, ../scss/_custom.scss */
 .quote-button {
   background-color: transparent;
   border: solid 1px #D4BF15;
@@ -9356,7 +9363,7 @@ h3 {
   letter-spacing: 1px;
   margin-top: 10%;
 }
-/* line 262, ../scss/_custom.scss */
+/* line 271, ../scss/_custom.scss */
 .quote-button p {
   font-family: "Playfair Display", serif;
   display: block;
@@ -9365,13 +9372,13 @@ h3 {
   font-size: 1.3rem;
 }
 @media screen and (max-width: 1024px) {
-  /* line 262, ../scss/_custom.scss */
+  /* line 271, ../scss/_custom.scss */
   .quote-button p {
     font-size: 1.125rem;
   }
 }
 
-/* line 274, ../scss/_custom.scss */
+/* line 283, ../scss/_custom.scss */
 h2 {
   font-size: 2rem;
   text-transform: uppercase;
@@ -9380,36 +9387,36 @@ h2 {
   font-family: "effra", sans-serif;
 }
 @media screen and (max-width: 1024px) {
-  /* line 274, ../scss/_custom.scss */
+  /* line 283, ../scss/_custom.scss */
   h2 {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 610px) {
-  /* line 274, ../scss/_custom.scss */
+  /* line 283, ../scss/_custom.scss */
   h2 {
     font-size: 0.8125rem;
   }
 }
 
-/* line 289, ../scss/_custom.scss */
+/* line 298, ../scss/_custom.scss */
 footer {
   overflow: hidden;
   width: 100%;
   height: 125px;
   font-family: "Playfair Display", serif;
-  color: #3E0DFF;
+  color: #b8a6ff;
   font-size: 1.125rem;
   font-weight: bold;
-  background-color: #D4BF15;
+  background-color: #3E0DFF;
 }
-/* line 299, ../scss/_custom.scss */
+/* line 308, ../scss/_custom.scss */
 footer .mark {
   width: 30px;
   margin-top: 30px;
   float: left;
 }
-/* line 304, ../scss/_custom.scss */
+/* line 313, ../scss/_custom.scss */
 footer .copyright, footer .copyright p {
   float: left;
   font-size: 1.125rem;
@@ -9417,13 +9424,13 @@ footer .copyright, footer .copyright p {
   margin-top: 25px;
 }
 @media screen and (max-width: 480px) {
-  /* line 304, ../scss/_custom.scss */
+  /* line 313, ../scss/_custom.scss */
   footer .copyright, footer .copyright p {
     margin-top: 11%;
     font-size: 0.875rem;
   }
 }
-/* line 316, ../scss/_custom.scss */
+/* line 325, ../scss/_custom.scss */
 footer ul {
   float: left;
   margin-top: 11%;
@@ -9431,12 +9438,12 @@ footer ul {
   font-family: "effra", sans-serif;
 }
 @media screen and (max-width: 480px) {
-  /* line 316, ../scss/_custom.scss */
+  /* line 325, ../scss/_custom.scss */
   footer ul {
     margin-top: 11%;
   }
 }
-/* line 326, ../scss/_custom.scss */
+/* line 335, ../scss/_custom.scss */
 footer li {
   float: left;
   font-weight: bold;
@@ -9444,33 +9451,33 @@ footer li {
   margin-right: 30px;
 }
 @media screen and (max-width: 480px) {
-  /* line 326, ../scss/_custom.scss */
+  /* line 335, ../scss/_custom.scss */
   footer li {
     font-size: 0.875rem;
   }
 }
-/* line 335, ../scss/_custom.scss */
+/* line 344, ../scss/_custom.scss */
 footer .divider {
   background-color: #3E0DFF;
   height: 1px;
   width: 100%;
   margin-left: 0px;
 }
-/* line 343, ../scss/_custom.scss */
+/* line 352, ../scss/_custom.scss */
 footer a:hover {
   color: #52006e;
 }
 
-/* line 353, ../scss/_custom.scss */
+/* line 362, ../scss/_custom.scss */
 body.portfolio {
   background-image: none;
 }
-/* line 355, ../scss/_custom.scss */
+/* line 364, ../scss/_custom.scss */
 body.portfolio h2 {
   margin-bottom: 10%;
   margin-top: 10%;
 }
-/* line 359, ../scss/_custom.scss */
+/* line 368, ../scss/_custom.scss */
 body.portfolio h2 p {
   font-size: 3rem;
   background-image: url("img/highlight.png");
@@ -9479,13 +9486,13 @@ body.portfolio h2 p {
   background-position-x: 50%;
 }
 
-/* line 370, ../scss/_custom.scss */
+/* line 379, ../scss/_custom.scss */
 h4 {
   background-color: #e1d9ff;
   margin-bottom: 0px;
   margin-top: -30px;
 }
-/* line 375, ../scss/_custom.scss */
+/* line 384, ../scss/_custom.scss */
 h4 p {
   font-weight: bold;
   letter-spacing: 1px;
@@ -9498,12 +9505,12 @@ h4 p {
   padding: 5px;
 }
 @media screen and (max-width: 480px) {
-  /* line 375, ../scss/_custom.scss */
+  /* line 384, ../scss/_custom.scss */
   h4 p {
     font-size: 2rem;
   }
 }
-/* line 388, ../scss/_custom.scss */
+/* line 397, ../scss/_custom.scss */
 h4 p span {
   font-family: "effra", sans-serif;
   font-weight: normal;
@@ -9514,44 +9521,44 @@ h4 p span {
   margin-top: 15px;
 }
 
-/* line 400, ../scss/_custom.scss */
+/* line 409, ../scss/_custom.scss */
 .port-slider {
   width: 100%;
 }
 
-/* line 405, ../scss/_custom.scss */
+/* line 414, ../scss/_custom.scss */
 .slick-dots {
   bottom: 0 !important;
 }
 
-/* line 410, ../scss/_custom.scss */
+/* line 419, ../scss/_custom.scss */
 .slick-dots li button:before {
   font-size: 10px !important;
 }
 
-/* line 414, ../scss/_custom.scss */
+/* line 423, ../scss/_custom.scss */
 .port-description {
   padding: 5%;
   color: #2C003B;
 }
-/* line 417, ../scss/_custom.scss */
+/* line 426, ../scss/_custom.scss */
 .port-description p {
   font-size: 1.375rem;
 }
-/* line 419, ../scss/_custom.scss */
+/* line 428, ../scss/_custom.scss */
 .port-description p span {
   font-family: "Playfair Display", serif;
   color: #3E0DFF;
   font-size: 1.125rem;
 }
 @media screen and (max-width: 480px) {
-  /* line 417, ../scss/_custom.scss */
+  /* line 426, ../scss/_custom.scss */
   .port-description p {
     font-size: 1rem;
   }
 }
 
-/* line 434, ../scss/_custom.scss */
+/* line 443, ../scss/_custom.scss */
 h5 {
   margin-bottom: 5%;
   display: block !important;
@@ -9563,18 +9570,18 @@ h5 {
   font-family: "effra", sans-serif;
 }
 @media screen and (max-width: 1024px) {
-  /* line 434, ../scss/_custom.scss */
+  /* line 443, ../scss/_custom.scss */
   h5 {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 434, ../scss/_custom.scss */
+  /* line 443, ../scss/_custom.scss */
   h5 {
     font-size: 1.125rem;
   }
 }
-/* line 449, ../scss/_custom.scss */
+/* line 458, ../scss/_custom.scss */
 h5 p {
   font-size: 3rem;
   background-image: url("img/highlight.png");
@@ -9583,13 +9590,13 @@ h5 p {
   background-position-x: 50%;
 }
 @media screen and (max-width: 480px) {
-  /* line 449, ../scss/_custom.scss */
+  /* line 458, ../scss/_custom.scss */
   h5 p {
     font-size: 2rem;
   }
 }
 
-/* line 461, ../scss/_custom.scss */
+/* line 470, ../scss/_custom.scss */
 .description2 {
   font-family: "Playfair Display", serif;
   margin-top: 30px;
@@ -9601,13 +9608,13 @@ h5 p {
   padding: 10px;
 }
 @media screen and (max-width: 480px) {
-  /* line 461, ../scss/_custom.scss */
+  /* line 470, ../scss/_custom.scss */
   .description2 {
     font-size: 1rem;
   }
 }
 
-/* line 477, ../scss/_custom.scss */
+/* line 486, ../scss/_custom.scss */
 ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #52006e;
@@ -9615,7 +9622,7 @@ h5 p {
   font-style: italic;
 }
 
-/* line 483, ../scss/_custom.scss */
+/* line 492, ../scss/_custom.scss */
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #52006e;
@@ -9623,7 +9630,7 @@ h5 p {
   font-style: italic;
 }
 
-/* line 489, ../scss/_custom.scss */
+/* line 498, ../scss/_custom.scss */
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #52006e;
@@ -9631,7 +9638,7 @@ h5 p {
   font-style: italic;
 }
 
-/* line 495, ../scss/_custom.scss */
+/* line 504, ../scss/_custom.scss */
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #52006e;
@@ -9639,13 +9646,13 @@ h5 p {
   font-style: italic;
 }
 
-/* line 503, ../scss/_custom.scss */
+/* line 512, ../scss/_custom.scss */
 input[type="checkbox"] + label, input[type="radio"] + label, label {
   font-family: "Playfair Display", serif;
   color: #52006e;
 }
 
-/* line 508, ../scss/_custom.scss */
+/* line 517, ../scss/_custom.scss */
 .submit {
   margin-top: 25px;
   width: 100%;
@@ -9654,18 +9661,18 @@ input[type="checkbox"] + label, input[type="radio"] + label, label {
   color: #D4BF15;
   font-size: 1rem;
 }
-/* line 515, ../scss/_custom.scss */
+/* line 524, ../scss/_custom.scss */
 .submit:hover {
   background-color: #D4BF15;
   color: #3E0DFF;
 }
 
-/* line 522, ../scss/_custom.scss */
+/* line 531, ../scss/_custom.scss */
 textarea {
   height: 100px;
 }
 
-/* line 528, ../scss/_custom.scss */
+/* line 537, ../scss/_custom.scss */
 .more-contact {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
@@ -9674,7 +9681,7 @@ textarea {
   margin-top: 25px;
 }
 
-/* line 538, ../scss/_custom.scss */
+/* line 547, ../scss/_custom.scss */
 .responsive-cape {
   width: 100%;
   background-image: url("img/devices.png");
@@ -9682,7 +9689,7 @@ textarea {
   margin-bottom: 10%;
 }
 
-/* line 545, ../scss/_custom.scss */
+/* line 554, ../scss/_custom.scss */
 .logo-cape {
   width: 100%;
   background-image: url("img/logos.png");
@@ -9690,7 +9697,7 @@ textarea {
   margin-bottom: 10%;
 }
 
-/* line 553, ../scss/_custom.scss */
+/* line 562, ../scss/_custom.scss */
 .social-cape {
   width: 100%;
   background-image: url("img/social-media.png");
@@ -9698,7 +9705,7 @@ textarea {
   margin-bottom: 10%;
 }
 
-/* line 560, ../scss/_custom.scss */
+/* line 569, ../scss/_custom.scss */
 .email-cape {
   margin-bottom: 10%;
   background-image: url("img/email.png");

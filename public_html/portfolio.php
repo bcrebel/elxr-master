@@ -13,6 +13,8 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body class="portfolio">
+    <header>
+    </header>
     <div class="row">
       <div class="container large-12 columns"> 
         <a href="#" data-reveal-id="myModal">
