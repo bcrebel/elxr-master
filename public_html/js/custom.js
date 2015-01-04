@@ -1,54 +1,62 @@
 //Capabilities Hover
 $('#responsive').hover(function() {
-	$('#responsive').hide(0,'', function(){
-		$('#h-responsive').show(0, '');
+  jQuery.fx.off = true;
+	$('#responsive').hide(function(){
+		$('#h-responsive').show();
 	});
 });
 
 $('#h-responsive').mouseleave(function() {
-	$('#h-responsive').hide(0,'', function() {
-		$('#responsive').show(0, '');
+  jQuery.fx.off = true;
+	$('#h-responsive').hide(function() {
+		$('#responsive').show();
 	});
 });
 
 
 
 $('#logo').hover(function() {
-	$('#logo').hide(0,'', function(){
-		$('#h-logo').show(0, '');
+	jQuery.fx.off = true;
+	$('#logo').hide(function(){
+		$('#h-logo').show();
 	});
 });
 
 $('#h-logo').mouseleave(function() {
-	$('#h-logo').hide(0,'', function() {
-		$('#logo').show(0, '');
+	jQuery.fx.off = true;
+	$('#h-logo').hide(function() {
+		$('#logo').show();
 	});
 });
 
 
 $('#social').hover(function() {
-	$('#social').hide(0,'', function(){
-		$('#h-social').show(0, '');
+	jQuery.fx.off = true;
+	$('#social').hide(function(){
+		$('#h-social').show();
 	});
 });
 
 $('#h-social').mouseleave(function() {
-	$('#h-social').hide(0,'', function() {
-		$('#social').show(0, '');
+  jQuery.fx.off = true;
+	$('#h-social').hide(function() {
+		$('#social').show();
 	});
 });
 
 
 
 $('#email').hover(function() {
-	$('#email').hide(0,'', function(){
-		$('#h-email').show(0, '');
+	jQuery.fx.off = true;
+	$('#email').hide(function(){
+		$('#h-email').show();
 	});
 });
 
 $('#h-email').mouseleave(function() {
-	$('#h-email').hide(0,'', function() {
-		$('#email').show(0, '');
+	jQuery.fx.off = true;
+	$('#h-email').hide(function() {
+		$('#email').show();
 	});
 });
 
