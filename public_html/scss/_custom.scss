@@ -362,7 +362,7 @@ background-color: $bluish;
 body.portfolio {
 background-image: none;
 	h2{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	margin-top: 10%;
 
 		p {
@@ -426,10 +426,11 @@ color: #2C003B;
 	p {
 	font-size: rem-calc(22px);
 		span {
-		font-family: $playfair;
+		//font-family: $playfair;
 		//font-style: italic;
 		color: $bluish;
-		font-size: rem-calc(18px);
+		font-weight: bold;
+		//font-size: rem-calc(18px);
 		}
 		@media screen and (max-width: $phones) {
 		font-size: 1rem;
@@ -471,13 +472,16 @@ font-family: $effra;
 font-family: $playfair;
 margin-top: 30px;
 font-size: 1.25rem;
-font-style: italic;
+//font-style: italic;
 text-align: left;
 color: #52006e;
 width: 100%;
 padding: 10px;
 	@media screen and (max-width: $phones) {
 	font-size: 1rem;
+	}
+	span {
+	font-weight: bold;
 	}
 }
 

@@ -9474,7 +9474,7 @@ body.portfolio {
 }
 /* line 364, ../scss/_custom.scss */
 body.portfolio h2 {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-top: 10%;
 }
 /* line 368, ../scss/_custom.scss */
@@ -9547,9 +9547,8 @@ h4 p span {
 }
 /* line 428, ../scss/_custom.scss */
 .port-description p span {
-  font-family: "Playfair Display", serif;
   color: #3E0DFF;
-  font-size: 1.125rem;
+  font-weight: bold;
 }
 @media screen and (max-width: 480px) {
   /* line 426, ../scss/_custom.scss */
@@ -9558,7 +9557,7 @@ h4 p span {
   }
 }
 
-/* line 443, ../scss/_custom.scss */
+/* line 444, ../scss/_custom.scss */
 h5 {
   margin-bottom: 5%;
   display: block !important;
@@ -9570,18 +9569,18 @@ h5 {
   font-family: "effra", sans-serif;
 }
 @media screen and (max-width: 1024px) {
-  /* line 443, ../scss/_custom.scss */
+  /* line 444, ../scss/_custom.scss */
   h5 {
     font-size: 2rem;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 443, ../scss/_custom.scss */
+  /* line 444, ../scss/_custom.scss */
   h5 {
     font-size: 1.125rem;
   }
 }
-/* line 458, ../scss/_custom.scss */
+/* line 459, ../scss/_custom.scss */
 h5 p {
   font-size: 3rem;
   background-image: url("img/highlight.png");
@@ -9590,31 +9589,34 @@ h5 p {
   background-position-x: 50%;
 }
 @media screen and (max-width: 480px) {
-  /* line 458, ../scss/_custom.scss */
+  /* line 459, ../scss/_custom.scss */
   h5 p {
     font-size: 2rem;
   }
 }
 
-/* line 470, ../scss/_custom.scss */
+/* line 471, ../scss/_custom.scss */
 .description2 {
   font-family: "Playfair Display", serif;
   margin-top: 30px;
   font-size: 1.25rem;
-  font-style: italic;
   text-align: left;
   color: #52006e;
   width: 100%;
   padding: 10px;
 }
 @media screen and (max-width: 480px) {
-  /* line 470, ../scss/_custom.scss */
+  /* line 471, ../scss/_custom.scss */
   .description2 {
     font-size: 1rem;
   }
 }
+/* line 483, ../scss/_custom.scss */
+.description2 span {
+  font-weight: bold;
+}
 
-/* line 486, ../scss/_custom.scss */
+/* line 490, ../scss/_custom.scss */
 ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #52006e;
@@ -9622,7 +9624,7 @@ h5 p {
   font-style: italic;
 }
 
-/* line 492, ../scss/_custom.scss */
+/* line 496, ../scss/_custom.scss */
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #52006e;
@@ -9630,7 +9632,7 @@ h5 p {
   font-style: italic;
 }
 
-/* line 498, ../scss/_custom.scss */
+/* line 502, ../scss/_custom.scss */
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #52006e;
@@ -9638,7 +9640,7 @@ h5 p {
   font-style: italic;
 }
 
-/* line 504, ../scss/_custom.scss */
+/* line 508, ../scss/_custom.scss */
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #52006e;
@@ -9646,13 +9648,13 @@ h5 p {
   font-style: italic;
 }
 
-/* line 512, ../scss/_custom.scss */
+/* line 516, ../scss/_custom.scss */
 input[type="checkbox"] + label, input[type="radio"] + label, label {
   font-family: "Playfair Display", serif;
   color: #52006e;
 }
 
-/* line 517, ../scss/_custom.scss */
+/* line 521, ../scss/_custom.scss */
 .submit {
   margin-top: 25px;
   width: 100%;
@@ -9661,18 +9663,18 @@ input[type="checkbox"] + label, input[type="radio"] + label, label {
   color: #D4BF15;
   font-size: 1rem;
 }
-/* line 524, ../scss/_custom.scss */
+/* line 528, ../scss/_custom.scss */
 .submit:hover {
   background-color: #D4BF15;
   color: #3E0DFF;
 }
 
-/* line 531, ../scss/_custom.scss */
+/* line 535, ../scss/_custom.scss */
 textarea {
   height: 100px;
 }
 
-/* line 537, ../scss/_custom.scss */
+/* line 541, ../scss/_custom.scss */
 .more-contact {
   font-family: "Playfair Display", serif;
   font-size: 1.5rem;
@@ -9681,7 +9683,7 @@ textarea {
   margin-top: 25px;
 }
 
-/* line 547, ../scss/_custom.scss */
+/* line 551, ../scss/_custom.scss */
 .responsive-cape {
   width: 100%;
   background-image: url("img/devices.png");
@@ -9689,7 +9691,7 @@ textarea {
   margin-bottom: 10%;
 }
 
-/* line 554, ../scss/_custom.scss */
+/* line 558, ../scss/_custom.scss */
 .logo-cape {
   width: 100%;
   background-image: url("img/logos.png");
@@ -9697,7 +9699,7 @@ textarea {
   margin-bottom: 10%;
 }
 
-/* line 562, ../scss/_custom.scss */
+/* line 566, ../scss/_custom.scss */
 .social-cape {
   width: 100%;
   background-image: url("img/social-media.png");
@@ -9705,7 +9707,7 @@ textarea {
   margin-bottom: 10%;
 }
 
-/* line 569, ../scss/_custom.scss */
+/* line 573, ../scss/_custom.scss */
 .email-cape {
   margin-bottom: 10%;
   background-image: url("img/email.png");

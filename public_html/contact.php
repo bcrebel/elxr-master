@@ -248,7 +248,7 @@
       <div class="row">
         <div class="small-10 small-centered columns">
           <p class="more-contact">
-            For other inquiries, please contact us at <a href="mailto:ninjas@elxr.it?Subject=Request%20Quote" target="_top">ninjas@elxr.it</a></p>
+            For other inquiries, please contact us at <a href="mailto:ninjas@elxr.it?Subject=Request%20Quote" target="_top"><b>ninjas@elxr.it</b></a></p>
         </div>
       </div>
 
