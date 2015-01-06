@@ -82,7 +82,7 @@
                 </div>
               </div>
               <div id="h-responsive"class="cape-hover">
-                <h3>With elxr's responsive design, increase sales and conversions because your website adjusts gracefully to fit on desktop, tablet, and smartphone browsers.</h3>
+                <h3>Maximize sales and conversions with websites that adjust gracefully to desktop, tablet and smartphone screens.</h3>
                 <a href="contact.php" class="button large quote-button">Get Quote</a>
               </div>
             </div>
@@ -95,7 +95,7 @@
                 </div>
               </div>
               <div id="h-logo" class="cape-hover">
-                <h3> Let elxr design a memorable logo for your new brand or revive an existing brand with a logo redesign </h3>
+                <h3>Revive an existing brand or embark on a fresh and unique identity.</h3>
                 <a href="contact.php" class="quote-button button large">Get Quote</a>
               </div>
             </div>
@@ -108,7 +108,7 @@
                   </div>
                 </div>
                 <div id="h-social" class="cape-hover">
-                <h3>Having trouble setting up or managing social media accounts? elxr can help your business raise awareness on Facebook, Twitter and other social platforms. </h3>
+                <h3>It's about time to get serious about social. Achieve the ultimate leverage on your platforms. </h3>
                 <a href="contact.php" class="quote-button button large">Get Quote</a>
               </div>
               </div>
@@ -121,7 +121,7 @@
                   </div>
                 </div>
                 <div id="h-email" class="cape-hover">
-                <h3>Drive prospective customers back to your website with attention-grabbing emails. Let elxr design your your custom, mobile-friendly newsletter. </h3>
+                <h3>Drive prospective customers back to your website with attention-grabbing emails. Experience the mobile-first advantage.</h3>
                 <a href="contact.php" class="quote-button button large">Get Quote</a>
               </div>
               </div>
