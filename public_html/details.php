@@ -54,12 +54,12 @@
         <div class="row">
           <div  class="large-12 columns">
             <p class="description2">
-              Masters in the art of graphic design and experienced in building web-based solutions,
-              elxr is the panacea to your digital business needs. Whether reviving your brand's image, 
+              We have a magical effect on our clients, or so we've been told.
+              Whether reviving your brand's image, prolonging your customer relationships,
               adding complex new features to an existing platform or guiding your new venture from concept to finished product,
-               elxr is prepared to help. 
+               elxr is prepared to transform. 
             <br>
-            <a href="contact.php"><span>Click here to request a quote.</span></a>
+            <a href="contact.php"><span>Request a quote.</span></a>
             </p>
           </div>
         </div>
@@ -78,20 +78,15 @@
         <div class="row">                      
           <div class="large-12 columns">
             <p id="AboutUs" class="description2">                   
-              Ever visited a website
-              on your smartphone but saw everything was too tiny to read? <br>
-              You zoomed in, then moved left to right, up and down, zooming out and in
-               as needed to be able to click on stuff? That was
-              NOT a responsive site.  
-              A responsive, or mobile-friendly website, looks good whether you’re viewing
-             it on a phone, tablet, or desktop. In 2015, not having a
-              mobile-friendly website will likely hurt your SEO. Visitors using mobile devices on a non-responsive
-             website will spend less time on your site, 
-             lowering your chances of making a sale, getting the visitor to call a number
-             or perform any other desirable actions. <br><br>
-             Let elxr help you by transforming your current website into a responsive one or creating one brand new. 
-            <br>
-            <a href="contact.php"><span>&nbsp;Click here to request a quote today.</span></a>
+              What's a foolproof way to keep your web assets optimal in this ever-changing world of new devices and screensizes?
+              A <b>responsive website</b> is so flexible and so fluid it looks good whether you're vieming on a desktop computer, iPad, or Samsung 
+              phone.
+              In fact, mobile visitors spend less time on non-responsive sites, making them less likely
+             to convert. This flexibility, combined with our fresh, non-templatey design approach
+             will make your brand a digital force to be reckoned with. 
+             Ready to transform your non-responsive site or embark on a brand new one?
+             
+            <a href="contact.php"><span>&nbsp;Request a quote.</span></a>
             </p>            
           </div>         
         </div>
@@ -111,13 +106,11 @@
         <div class="row">
           <div class="large-12 columns">
             <p id="AboutUs" class="description2">
-              Your logo is the face of your brand. 
-              It is one of the first things someone sees when 
-              visiting your website or looking at your product packaging. 
-              Moreover, a unique logo is one of the main ways people remember your company. <br><br>
-              Let elxr design a memorable logo for your new brand or revive an existing brand with a logo redesign. 
+              Your logo is a serious matter. Crafting logos that are unique and memorable requires a certain finesse.
+              Good thing we specialize in crafting logos and brand identities that are relevant, timeless, and integrate seamlessly in different media.  
+              
             <br>
-            <a href="contact.php"><span>&nbsp;Click here to request a quote today.</span></a>
+            <a href="contact.php"><span>&nbsp;Request a quote.</span></a>
             </p>
           </div>
         </div>
@@ -137,18 +130,12 @@
         <div class="row">
           <div class="large-12 columns">
             <p class="description2">
-                If you're building a business or brand in 2015,
-                you know you should be using social media to interact with customers.
-                According to Adroit Digital, 
-                75 percent of online Americans said information found on social media 
-                influenced their shopping behavior and enhanced brand loyalty.
-                Unfortunately, managing social media is a big time drain. It's a big job 
-                but not a full-time job so fill your business' need by outsourcing this task . 
-                elxr's social media team has expereince working with a diverse array of clients. 
-                We know what works and what hasn't. <br><br>
-                Let elxr help you manage your social media accounts today.
+                By now we're all familiar with the awesome advantages of social media, including increased conversion, 
+                brand loyalty and recognition, lower marketing costs and improved SEO rankings. We're here to help you 
+                make that pivotal investment in social media strategy, implementation and analytics. 
+               
               <br>
-            <a href="contact.php"><span>&nbsp;Click here to request a quote today.</span></a>
+            <a href="contact.php"><span>&nbsp;Request a quote.</span></a>
 
             </p>
           </div>
@@ -170,17 +157,16 @@
         <div class="row">
           <div class="large-12 columns">
             <p class="description2">
-            Email marketing is an affordable way to stretch a tight marketing budget - 
-            and whose isn’t these days? <br>
-            It allows you to proactively communicate 
-            with your existing customers and prospects 
-            instead of waiting for them to return to your website or storefront. 
+            Email marketing is an affordable way to stretch a tight marketing budget&mdash;and
+            who isn’t stretching these days?
+            It's an opportunity to proactively communicate 
+            with your existing prospects 
+            instead of passively waiting for them to return to your website. 
             As more consumers are opening promotional emails on their mobile devices, 
-            a responsive newsletter makes emails work even better. <br><br> 
-            Let elxr design custom, attention-grabbing, responsive newsletters 
-            that excite your audience and drive them to your website.
-            <br>
-            <a href="contact.php"><span>&nbsp;Click here to request a quote today.</span></a>
+            a responsive newsletter makes emails work even better.
+            We develop dynamic email marketing strategies featuring custom, attention-grabbing, responsive newsletters 
+            that maximize customer trust, traffic and conversion.
+            <a href="contact.php"><span>&nbsp;Request a quote.</span></a>
             </p>
           </div>
         </div>

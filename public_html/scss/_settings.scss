@@ -6,6 +6,7 @@ $playfair: 'Playfair Display', serif;
 
 $bluish : #3E0DFF;
 
+
 $salmon: #E80CDF;
 
 $mustard: #D4BF15;
@@ -43,13 +44,14 @@ margin-top: 10%;
 
 //Reveal Modal
 $reveal-modal-bg: $bluish;
-$reveal-close-color: $mustard;
+$reveal-close-color: $electric;
 $reveal-close-weight: normal;
 $reveal-border-color: $bluish;
 $reveal-radius: 0px;
 $reveal-round: 0px;
-$reveal-close-font-size: 3rem;
-
+$reveal-close-font-size: 4rem;
+$reveal-overlay-bg: $bluish;
+$reveal-box-shadow: (0,0,0,0);
 //Forms
 
  $input-border-color: #52006e;

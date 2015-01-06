@@ -65,7 +65,7 @@
             <img class="main-logo" src="stylesheets/img/elxr_logo_v2_elep.png">
             <div class="divider">
             </div>
-            <h1><span>elxr</span> is the panacea for all your digital business needs</h1>
+            <h1><!--<span>elxr</span>--> transform your digital presence</h1>
           </div>
           
         

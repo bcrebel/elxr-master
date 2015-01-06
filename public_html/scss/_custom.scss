@@ -3,8 +3,8 @@
 header {
 background-image: url("img/flowing.png");
 width: 100%;
-height: 50px;
-background-position: 45% 70%;
+height: 25px;
+ background-position: 45% 70%;
 }
 
 
@@ -59,7 +59,7 @@ float: left;
 		}
 	}
 	a {
-	color: $electric;
+	color: $mustard;
 
 	}
 }
@@ -122,6 +122,7 @@ width: 100%;
 float: left;
 clear: both;
 width: 100%;
+margin-bottom: 50px;
 margin-top: 50px;
 	ul li {
 	float: left;
@@ -299,6 +300,7 @@ footer {
 overflow: hidden;
 width: 100%;
 height: 125px;
+border-top: solid 3px $mustard;
 font-family: $playfair;
 color: lighten($bluish, 30%);
 font-size: rem-calc(18px);
@@ -471,7 +473,7 @@ font-family: $effra;
 .description2 {
 font-family: $playfair;
 margin-top: 30px;
-font-size: 1.25rem;
+font-size: 2rem;
 //font-style: italic;
 text-align: left;
 color: #52006e;
