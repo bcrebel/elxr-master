@@ -1,62 +1,62 @@
 //Capabilities Hover
-$('#responsive').hover(function() {
+$('#responsive-overlay').hover(function() {
   jQuery.fx.off = true;
-	$('#responsive').hide(function(){
-		$('#h-responsive').show();
+	$('#responsive-overlay').hide(function(){
+		$('#responsive-reveal').show();
 	});
 });
 
-$('#h-responsive').mouseleave(function() {
+$('#responsive-reveal').mouseleave(function() {
   jQuery.fx.off = true;
-	$('#h-responsive').hide(function() {
-		$('#responsive').show();
+	$('#responsive-reveal').hide(function() {
+		$('#responsive-overlay').show();
 	});
 });
 
 
 
-$('#logo').hover(function() {
+$('#media-overlay').hover(function() {
 	jQuery.fx.off = true;
-	$('#logo').hide(function(){
-		$('#h-logo').show();
+	$('#media-overlay').hide(function(){
+		$('#media-reveal').show();
 	});
 });
 
-$('#h-logo').mouseleave(function() {
+$('#media-reveal').mouseleave(function() {
 	jQuery.fx.off = true;
-	$('#h-logo').hide(function() {
-		$('#logo').show();
+	$('#media-reveal').hide(function() {
+		$('#media-overlay').show();
 	});
 });
 
 
-$('#social').hover(function() {
+$('#identity-overlay').hover(function() {
 	jQuery.fx.off = true;
-	$('#social').hide(function(){
-		$('#h-social').show();
+	$('#identity-overlay').hide(function(){
+		$('#identity-reveal').show();
 	});
 });
 
-$('#h-social').mouseleave(function() {
+$('#identity-reveal').mouseleave(function() {
   jQuery.fx.off = true;
-	$('#h-social').hide(function() {
-		$('#social').show();
+	$('#identity-reveal').hide(function() {
+		$('#identity-overlay').show();
 	});
 });
 
 
 
-$('#email').hover(function() {
+$('#email-overlay').hover(function() {
 	jQuery.fx.off = true;
-	$('#email').hide(function(){
-		$('#h-email').show();
+	$('#email-overlay').hide(function(){
+		$('#email-reveal').show();
 	});
 });
 
-$('#h-email').mouseleave(function() {
+$('#email-reveal').mouseleave(function() {
 	jQuery.fx.off = true;
-	$('#h-email').hide(function() {
-		$('#email').show();
+	$('#email-reveal').hide(function() {
+		$('#email-overlay').show();
 	});
 });
 

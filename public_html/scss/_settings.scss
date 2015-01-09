@@ -4,17 +4,25 @@ $playfair: 'Playfair Display', serif;
 
 //Colors
 
-$blue: #2a363b;
+$pink: #F02475;
 
-$tan: #fecea8;
+$yellow: #CFBE27;
 
-$green: #99b898;
+$blue: #3B2D38;
 
+$tan: #BCBDAC;
 
+$eggplant: black;
 
+//$eggplant: #3B2D38;
 
+$orange: #F27435;
 
+$green: #CFBE27;
 
+//$market: "ff-market-web";
+
+$market: 'Playfair Display', serif;
 
 
 
@@ -41,7 +49,7 @@ $phones: 480px;
 
 
 //Mixins 
-$button-font-family: $playfair;
+//$button-font-family: $market;
 $button-font-color: $mustard;
 $button-font-color-alt: $mustard;
 $button-bg-hover: transparent;

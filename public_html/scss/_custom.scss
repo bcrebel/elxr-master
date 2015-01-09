@@ -1,32 +1,421 @@
 //Homepage 
 
 
+
+.home-title {
+min-height: 425px;
+margin-top: 25px;
+	@media screen and (max-width: $phones) {
+	min-height: 0;
+	}
+	p {
+	font-family: $effra;
+	font-weight: bold;
+	color: $pink;
+	font-size: 6.5rem;
+	line-height: 90%;
+	clear: both;
+	letter-spacing: 4px;
+		span {
+		border-bottom: dotted 3px $tan;
+		font-family: $market;
+		font-style: italic;
+		text-transform: lowercase;
+		font-size: 8rem;
+		line-height: 100% !important;
+   		display: inline-block;
+			@media screen and (max-width: $tablets) {
+			font-size: 5.5rem;
+			border-bottom: dotted 1px $tan;
+
+ 			}
+			@media screen and (max-width: $phones) {
+			font-size: 2rem;
+			border-bottom: dotted 2px $tan;
+ 			}
+		}
+		@media screen and (max-width: $tablets) {
+		font-size: rem-calc(78px);
+		line-height: 200%;
+		}
+		@media screen and (max-width: $phones) {
+		font-size: rem-calc(34px);
+		line-height: 200%;
+		}
+		@media screen and (max-width: 240px) {
+		font-size: rem-calc(24px);
+		}
+	}
+
+}
+
+
+
+ul {
+margin-left: 0px !important;
+}
+
+body {
+background-color: $blue;
+}
+
+
+.site-slider {
+height: 720px;
+}
+
+
 .page-slide {
 width: 100%;
 height: 100%;
+height: 720px;
 background-color: $blue;
 }
 
 
 
+.site-slider .slick-dots li button:before, .site-slider .slick-dots li.slick-active button:before
+ {
+font-size: 18px;
+color: $orange;
+	@media screen and (max-width: $phones) {
+	font-size: 14px;
+	}
+} 
+
+
+.slick-dots li button {
+//margin-left: -27px;
+font-size: 18px;
+	@media screen and (max-width: $tablets) {
+	margin-left: 0px;
+	}
+}
+ 
+.slick-dots {
+position: relative !important;
+clear: both;
+}
+
+
+
+.menu {
+width: 96px;
+height: 64px;
+//clear: both;
+margin-top: 5%;
+margin-left: 5%;
+float: left;
+background-repeat: no-repeat;
+background-size: 75%;
+background-image: url('img/menu.png');
+	@media screen and (max-width: $tablets) {
+	background-size: 75%;
+	margin-top: 10%;
+	margin-left: 10%;
+	}
+	@media screen and (max-width: $phones) {
+	background-size: 50%;
+	}
+}
 
 
 
 
-header {
-background-image: url("img/flowing.png");
+.divider {
+width: 15%;
+margin-left: 43%;
+height: 5px;
+background-color: $orange;
+margin-top: 30px;
+	/*@media screen and (max-width: $tablets) {
+	height: 4px;
+	}*/
+	@media screen and (max-width: $phones) {
+	height: 4px;
+	margin-top: 50px;
+	}
+}
+
+
+
+.services {
+//border-top: double 7px $orange;
 width: 100%;
-height: 25px;
- background-position: 45% 70%;
+	p {
+	//display: none;
+	font-family: $effra;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: $tan;
+	font-size: 2.5rem;
+	text-align: center;
+		@media screen and (max-width: $tablets) {
+		font-size: 1.5rem;
+		}
+		@media screen and (max-width: $phones) {
+		font-size: rem-calc(12px);
+		}
+	}
+ }
+
+
+
+.services-unit {
+width: 50%;
+padding: 3%;
+float: left;
+height: 200px;
+background-image: url('stylesheets/img/devices.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+	@media screen and (max-width: $tablets) {
+	padding: 5% 4%;
+	}
+	@media screen and (max-width: $phones) {
+	padding: 17% 5%;
+	}
+	.divider {
+		@media screen and (max-width: $phones) {
+		margin-top: 25px;
+		}
+	}
 }
 
 
-body {
+.services-overlay {
+//display: none;
+}
+
+
+.services-reveal {
+display: none;
+ 	p {
+ 	font-family: $effra;
+	color: $tan;
+	font-size: 1rem;
+ 	}
+ 	.get-quote {
+  	color: $tan;
+ 	font-family: $effra;
+ 	width: 50%;
+ 	margin-left: 25%;
+ 	text-align: center;
+ 	letter-spacing: 2px;
+ 	padding: 5px;
+ 	font-size: 14px;
+ 	border: double 1px $tan;
+ 		&:hover {
+ 		background-color: $tan;
+ 		color: $blue;
+ 		}
+ 		span {
+ 		text-align: center;
+ 		}
+ 	}
+}
+
+
+
+h1 {
+//background-color: $pink;
+   text-transform: uppercase;
+//margin-bottom: 50px;
+letter-spacing: 2px;
+text-align: center;
+clear: both;
+	span {
+	color: $pink;
+	//font-weight: bold;
+	font-family: $playfair;
+	}
+	p {
+	font-family: $market;
+	font-size: 5rem;
+	color: lighten($blue, 20%);
+	//font-style: italic;
+	background-position: 50%;
+	text-transform: lowercase;
+	//background-image: url('img/highlight_pink.png');
+	background-repeat: no-repeat;
+		@media screen and (max-width: $tablets) {
+		font-size: 3.875rem;
+		}
+		@media screen and (max-width: $phones) {
+		font-size: rem-calc(34px);
+		background-size: 25%;
+		}
+	}
+}
+
+
+
+.service-p {
+font-size: 1.5rem;
+font-family: $playfair;
+color: $blue;
+border-bottom: dashed 1px $orange;
+border-top: dashed 1px $orange;
+padding: 20px 0px 20px 0px;
+	@media screen and (max-width: $tablets) {
+	font-size: rem-calc(24px);
+	}
+	@media screen and (max-width: $phones) {
+	font-size: 1rem;
+	}
+	a {
+	font-weight: bold;
+ 	}
+
+}
+
+.service-page {
+background-color: lighten($tan, 15%);
+	.menu {
+	background-image: url('img/menu_eggplant.png');
+	}
+}
+
+
+
+.service-action {
+background-color: $yellow;
+color: $blue;
+text-align: center;
+padding: 5px;
+margin-bottom: 10px;
 font-family: $effra;
-//background-image: url("img/flowing.png");
-//overflow: hidden;
-
+text-transform: uppercase;
+letter-spacing: 2px;
+border: solid 1px $blue;
+	&:hover {
+	color: $yellow;
+	background-color: $blue;
+	border-color: $yellow;
+	}
 }
+
+
+//**********************Portfolio
+
+
+.work-module {
+width: 100%;
+	ul, li {
+	width: 100%;
+	}
+}
+
+
+
+.work-summary {
+float: left;
+width: 40%;
+height: 300px;
+padding: 20px;
+background-color: lighten($blue, 10%);
+	@media screen and (max-width: $tablets) {
+	width: 100%;
+	}
+	.divider {
+	margin-bottom: 10px;
+		@media screen and (max-width: $phones) {
+		margin-top: 0px;
+		}
+	}
+}
+
+.work-description {
+float: right;
+width: 60%;
+height: 300px;
+padding: 35px;
+background-color: lighten($blue, 15%);
+	@media screen and (max-width: $tablets) {
+	width: 100%;
+	}
+	p {
+	font-family: $playfair;
+	color: lighten($yellow, 30%);
+	letter-spacing: 1px;
+	overflow: scroll;
+	font-size: 14px;
+	max-height: 251px;
+		@media screen and (max-width: $phones) {
+		font-size: 13px;
+		}
+	}
+}
+
+
+.work-visual {
+width: 100%;
+	img {
+	width: 100%;
+	}
+}
+
+
+.work-title {
+font-family: $effra;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+color: $tan;
+font-size: rem-calc(28px);
+clear: both;
+	@media screen and (max-width: $tablets) {
+	font-size: rem-calc(34px);
+	}
+	@media screen and (max-width: $phones) {
+	font-size: rem-calc(20px);
+	background-size: 25%;
+	}
+}
+
+
+
+.get-quote {
+  	color: $tan;
+ 	font-family: $effra;
+ 	width: 50%;
+ 	margin-left: 25%;
+ 	text-align: center;
+ 	letter-spacing: 2px;
+ 	padding: 5px;
+ 	font-size: 14px;
+ 	border: double 1px $tan;
+ 		&:hover {
+ 		background-color: $tan;
+ 		color: $blue;
+ 		}
+ 		span {
+ 		text-align: center;
+ 		}
+ 	}
+
+
+.summary-paragraph {
+font-family: $playfair;
+}
+
+.work-tagline {
+font-family: $effra;
+font-size: rem-calc(14px);
+text-transform: uppercase;
+color: $blue;
+margin-top: 10px;
+letter-spacing: 2px;
+text-align: center;
+	@media screen and (max-width: $tablets) {
+	font-size: rem-calc(20px);
+	}
+	@media screen and (max-width: $phones) {
+	font-size: 1rem;
+	}
+}
+
 
 
 a {
@@ -38,12 +427,7 @@ color: inherit;
 
 
 
-.menu {
-width: 10%;
-margin-top: 10%;
-margin-left: 5%;
-float: left;	
-}
+
 
 
 .full-menu {
@@ -105,30 +489,18 @@ padding-bottom: 50px;
 }
 
 .main-logo {
-width: 100%;
+display: none;
+width: 100px;
 margin-top: 50px;
-}
-
-h1 {
-margin-top: 30px;
-font-family: $playfair;
-font-size: 2rem;
-font-style: italic;
-text-align: center;
-color: lighten(#2C003B, 10%);
-width: 100%;
-	span {
-	font-weight: bold;
-	}
-
- 	@media screen and (max-width: $tablets) {
-	font-size: rem-calc(40px);
-	}
-	@media screen and (max-width: $phones) {
-	font-size: 2rem;
+float: right;
+	@media screen and (max-width: $tablets) {
+	width: 100px;
+	margin-top: 6%;
+	margin-right: 8%;
 	}
 }
 
+ 
 
 
 .navigation {
@@ -167,14 +539,7 @@ margin-top: 50px;
 
 
 
-.divider {
-width: 20%;
-margin-top: 30px;
-margin-left: 39%;
-height: 3px;
-background-color: $mustard;
-}
-
+ 
 
 
 .second {
@@ -294,19 +659,7 @@ margin-bottom: 100px;
 	}
 }
 
-h2 {
-font-size: rem-calc(32px);
-text-transform: uppercase;
-color: $electric;
-text-align: center;
-font-family: $effra;
- 	@media screen and (max-width: $tablets) {
-	font-size: 2rem;
-	}
-	@media screen and (max-width: 610px) {
-	font-size: rem-calc(13px);
-	}
-}
+
 
 
 footer {
@@ -431,10 +784,11 @@ bottom: 0 !important;
 }
 
 
-.slick-dots li button:before {
-font-size: 10px !important;
-}
+//.slick-dots li button:before {
+//font-size: 10px !important;
+//}
 
+/*
 .port-description {
 padding: 5%;
 color: #2C003B;
@@ -502,25 +856,25 @@ padding: 10px;
 
 
 
-::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #52006e;
+::-webkit-input-placeholder {  
+    color: #52006e;
     opacity: 0.9;
     font-style: italic;
 }
 
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {  
    color:    #52006e;
    opacity:  0.9;
    font-style: italic;
 }
 
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder {  
    color:    #52006e;
    opacity:  0.9;
    font-style: italic;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+:-ms-input-placeholder { 
    color:    #52006e;
    opacity: 0.9;
    font-style: italic;
@@ -591,3 +945,4 @@ background-image: url("img/email.png");
 padding: 30% 15%;
 width: 100%;	
 }
+*/
